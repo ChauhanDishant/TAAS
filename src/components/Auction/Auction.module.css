@@ -1,0 +1,78 @@
+.background_container {
+  margin: 0;
+  padding: 0;
+  background: url("https://images.pexels.com/photos/1198507/pexels-photo-1198507.jpeg?cs=srgb&dl=pexels-jonathan-petersson-1198507.jpg&fm=jpg")
+    no-repeat center center/cover;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.form_title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="file"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2.5px solid #4caf50;
+  outline: none;
+  font-size: 16px;
+  transition: border-bottom 0.3s ease; /* Adding transition effect */
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="phone"]:hover,
+input[type="file"]:hover,
+input[type="number"]:hover {
+  border-bottom: 2px solid #1298d1; /* Change border color on hover */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="phone"]:focus,
+input[type="file"]:focus {
+  border-bottom: 2px solid #1298d1; /* Change border color on focus */
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #1298d1;
+}

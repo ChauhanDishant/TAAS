@@ -1,0 +1,39 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+}
+
+.search-container {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.search-button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.location,
+.temperature {
+  margin-top: 20px;
+}
+
+.weather-condition {
+  margin-top: 20px;
+}
+.weather-forecast li .day-number {
+  background-color: #ccc;
+  font-size: 12px;
+  padding: 5px;
+}
